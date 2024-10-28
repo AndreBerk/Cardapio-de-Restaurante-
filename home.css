@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #E2F1E7;
+}
+.home {
+    text-align: center; /* Centraliza o conteúdo do main */
+    padding: 40px 20px; /* Espaçamento interno */
+    background-color: #E2F1E7;
+}
+
+.home h2 {
+    font-size: 32px; /* Tamanho do título */
+    color: #387478;
+    font-weight: 800;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.home p {
+    font-size: 23px; /* Tamanho da descrição */
+    color: #387478;
+    font-weight: 600;
+    margin-bottom: 30px; /* Espaçamento abaixo da descrição */
+}
+
+.buttons {
+    display: flex; /* Usar flexbox para alinhar os botões */
+    justify-content: center; /* Centraliza os botões */
+}
+
+.btn {
+    display: inline-block; /* Para estilizar como botão */
+    background-color: #629584; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 10px; /* Espaçamento entre os botões */
+    transition: background-color 0.3s; /* Transição suave para a cor ao passar o mouse */
+}
+
+.btn:hover {
+    background-color: #507a6d; /* Cor ao passar o mouse */
+}
+.negrito {
+    color: #243642;
+    font-weight: 800;
+}
+.btn a{
+    text-decoration: none;
+    color: #E2F1E7;
+}

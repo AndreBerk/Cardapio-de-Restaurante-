@@ -1,0 +1,72 @@
+
+.hamburgueres {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Cor de fundo para a seção de hambúrgueres */
+}
+
+.hamburgueres h2 {
+    color: #243642;
+    font-weight: 600;
+    font-size: 32px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.card-container {
+    display: flex; /* Usar flexbox para alinhar os cards */
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os cards se ajustem em várias linhas */
+}
+
+.card {
+    background-color: #629584; /* Fundo dos cards */
+    border: 1px solid ; /* Borda dos cards */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento entre os cards */
+    width: 250px; /* Largura fixa dos cards */
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex; /* Usar flexbox para alinhar os itens dentro do card */
+    flex-direction: column; /* Colocar itens em coluna */
+    align-items: center; /* Centralizar os itens horizontalmente */
+    text-align: start;
+}
+
+.card img {
+    width: 100%; /* Largura total do card */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+}
+
+.card h3 {
+    font-size: 24px; /* Tamanho do título do card */
+    margin: 10px 0; /* Espaçamento acima e abaixo do título */
+}
+
+.card p {
+    font-size: 16px; /* Tamanho da descrição do card */
+    margin: 10px 0; /* Espaçamento acima e abaixo da descrição */
+}
+
+.card span {
+    font-weight: bold; /* Destaca o preço */
+    font-size: 18px; /* Tamanho do preço */
+    margin: 10px 0; /* Espaçamento acima e abaixo do preço */
+}
+
+.add-to-cart {
+    background-color: #243642; /* Usar a variável definida */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave */
+    margin-top: auto; /* Empurrar o botão para o final do card */
+}
+
+.add-to-cart:hover {
+    background-color: var(--cor-botao-hover); /* Usar a variável definida */
+}

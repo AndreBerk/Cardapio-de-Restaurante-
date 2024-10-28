@@ -1,0 +1,67 @@
+
+.menu-header {
+    background-color: #629584;
+    text-align: center; /* Centraliza texto dentro do header */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #243642; /* Tamanho da fonte do título */
+}
+
+
+
+
+.menu-nav {
+    margin-top: 10px; /* Espaçamento entre o logo e a navegação */
+}
+
+.menu-nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    display: inline-block; /* Para centralizar o menu */
+}
+
+.menu-nav li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.menu-nav a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #243642;  /* Cor dos itens de navegação */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.menu-nav a:hover {
+    color: rgba(255, 255, 255, 0.8); /* Cor ao passar o mouse */
+    text-decoration: none; 
+}
+
+
+
+.menu-pedidos {
+    text-align: end;
+}
+.menu-pedidos ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    display: inline-block; /* Para centralizar o menu */
+}
+
+.menu-pedidos li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.menu-pedidos a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #243642;  /* Cor dos itens de navegação */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.menu-pedidos a:hover {
+    color: rgba(255, 255, 255, 0.8); /* Cor ao passar o mouse */
+    text-decoration: none; 
+}
